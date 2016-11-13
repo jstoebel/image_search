@@ -1,0 +1,26 @@
+{
+  "name": "image_search",
+  "version": "1.0.0",
+  "description": "image search abstraction service for freecodecamp.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstoebel/image_search.git"
+  },
+  "author": "Jacob Stoebel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jstoebel/image_search/issues"
+  },
+  "homepage": "https://github.com/jstoebel/image_search#readme",
+  "dependencies": {
+    "bing.search": "^1.0.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "jade": "^1.11.0"
+  }
+}
